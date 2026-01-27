@@ -47,7 +47,7 @@ DJAGNGO_APPS = [
     'django.contrib.staticfiles','django.contrib.humanize', 'widget_tweaks', 
 ]
 
-APPLICATIONS_APPS=[]
+APPLICATIONS_APPS=[ 'pages.apps.PagesConfig','AnJuShop.apps.AnjushopConfig',]
 
 
 # pip install django-taggit
@@ -68,7 +68,7 @@ DJANGO_MIDDLEWARE = [
 ]
 
 
-THIRD_PARTY_MIDDLEWARE = ['debug_toolbar.middleware.DebugToolbarMiddleware']
+THIRD_PARTY_MIDDLEWARE = ['debug_toolbar.middleware.DebugToolbarMiddleware',]
 
 MIDDLEWARE = DJANGO_MIDDLEWARE + THIRD_PARTY_MIDDLEWARE 
 
@@ -77,7 +77,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -94,18 +94,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
-'''
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'homework_database',
-        'USER': 'postgres',
-        'PASSWORD': '1',
-        'HOST': 'localhost',
-        'PORT':'5432',
-    }
-}
-'''
+
 
 DATABASES = {
     'default': {

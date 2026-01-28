@@ -49,9 +49,10 @@ DJAGNGO_APPS = [
 
 APPLICATIONS_APPS=[ 'pages.apps.PagesConfig','AnJuShop.apps.AnjushopConfig',]
 
-
+#pip install django-import-export
+# 'import_export',
 # pip install django-taggit
-THIRD_PARTY_APPS = ['debug_toolbar','taggit']
+THIRD_PARTY_APPS = ['debug_toolbar','taggit','import_export']
 
 
 INSTALLED_APPS=DJAGNGO_APPS +APPLICATIONS_APPS+THIRD_PARTY_APPS

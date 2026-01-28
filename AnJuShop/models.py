@@ -23,14 +23,24 @@ class Product(models.Model):
 
 
 class Order(models.Model):
-    # customer = models.ForeignKey(Customer, on_delete=models.CASCADE)
-    # product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    customer = models.ForeignKey(Customer, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
 
-    customer_name = models.CharField(max_length=200, blank=True, null=True)
-    product_name = models.CharField(max_length=200, blank=True, null=True)
+    #customer_name = models.CharField(max_length=200, blank=True, null=True)
+    #product_name = models.CharField(max_length=200, blank=True, null=True)
 
     quantity = models.PositiveIntegerField()
     order_date = models.DateField()
 
     def __str__(self):
         return f"{self.customer} - {self.product} ({self.quantity})"
+
+
+
+class Vendor(models.Model):
+    name = models.CharField(max_length=100)
+    email = models.EmailField(unique=True)
+    city = models.CharField(max_length=100, blank=True)
+
+    def __str__(self):
+        return self.name

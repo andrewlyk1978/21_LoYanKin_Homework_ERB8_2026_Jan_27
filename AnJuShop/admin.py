@@ -5,7 +5,7 @@ from django.contrib import admin
 # Register your models here.
 
 
-from .models import Customer, Product, Order
+from .models import Customer, Product, Order, Vendor
 
 
 #(ImportExportModelAdmin)
@@ -29,3 +29,10 @@ class OrderAdmin(ImportExportModelAdmin):
     list_display = ("customer", "product", "quantity", "order_date")
     list_filter = ("order_date", "product__category")
     search_fields = ("customer__name", "product__name")
+
+''''''
+@admin.register(Vendor)
+class VendorAdmin(ImportExportModelAdmin):
+    list_display = ("name", "email", "city")
+    list_filter = ("name", "city")
+    search_fields = ("city",)

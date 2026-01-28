@@ -1,0 +1,21 @@
+name,email,age,city
+Alice Johnson,alice.johnson@example.com,28,New York
+Bob Smith,bob.smith@example.com,34,Los Angeles
+Charlie Brown,charlie.brown@example.com,,Chicago
+Diana Prince,diana.prince@example.com,31,Washington
+Ethan Hunt,ethan.hunt@example.com,45,Boston
+Fiona Gallagher,fiona.gallagher@example.com,29,Seattle
+George Costanza,george.costanza@example.com,52,Philadelphia
+Hannah Baker,hannah.baker@example.com,23,Miami
+Ian Malcolm,ian.malcolm@example.com,60,San Francisco
+Julia Roberts,julia.roberts@example.com,56,Austin
+Kevin Hart,kevin.hart@example.com,44,Dallas
+Linda Green,linda.green@example.com,,Denver
+Michael Scott,michael.scott@example.com,48,Scranton
+Nina Simone,nina.simone@example.com,89,New Orleans
+Oscar Wilde,oscar.wilde@example.com,,London
+Patricia Clark,patricia.clark@example.com,37,Portland
+Quincy Jones,quincy.jones@example.com,90,Atlanta
+Rachel Green,rachel.green@example.com,29,New York
+Steve Rogers,steve.rogers@example.com,102,Brooklyn
+Tina Turner,tina.turner@example.com,83,Zurich

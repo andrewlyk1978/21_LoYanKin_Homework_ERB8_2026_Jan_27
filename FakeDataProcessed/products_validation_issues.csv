@@ -1,0 +1,5 @@
+row_number,name,category,price,issues
+2,,Electronics,-59.99,negative price
+3,Organic Green Tea,Groceries,-12.5,negative price
+11,"Graphic Novel - ""Space Odyssey""",Books,-22.0,negative price
+21,Digital Kitchen Scale,Home & Kitchen,-21.8,negative price

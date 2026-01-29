@@ -2,8 +2,12 @@ import pandas as pd
 import re
 
 # ---- config ----
-INPUT_CSV = "Home/Documents/MyProject/MyHomework/FakeDataProcessed/customers_raw.csv"       # your input file
-OUTPUT_ERRORS_CSV = "Home/Documents/MyProject/MyHomework/FakeDataProcessed/customers_errors.csv"  # output (invalid rows)
+INPUT_CSV = "/home/andrewlo/Documents/MyProject/MyHomeWork/FakeDataProcessed/customers_raw.csv"      
+# your input file
+OUTPUT_ERRORS_CSV = "/home/andrewlo/Documents/MyProject/MyHomeWork/FakeDataProcessed/customers_errors.csv"  
+# output (invalid rows)
+# /home/andrewlo/.virtualenvs/erb8/bin/python /home/andrewlo/Documents/MyProject/MyHomeWork/FakeDataProcessed/customer_raw.py
+# home/andrewlo/Documents/MyProject/MyHomeWork/FakeDataProcessed/customer_raw.py
 
 
 # Simple email regex: something@something.something

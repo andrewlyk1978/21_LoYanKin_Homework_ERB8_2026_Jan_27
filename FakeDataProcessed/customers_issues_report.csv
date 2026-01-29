@@ -1,0 +1,6 @@
+name,email,age,city,issues
+Tina Turner###,tina.turnerexample.com,83.0,Zurich,Invalid or empty email
+Rachel- Green,rachel.green@example.com,-29.0,New York,Negative age
+Ian Malcolm,ian.malcolm+example.com,60.0,San Francisco,Invalid or empty email
+Fiona Gallagher,fiona.gallagher@example.com,-29.0,Seattle,Negative age
+Bob Smith,bob.smith你好嗎@example.com,34.0,Los Angeles,Invalid or empty email
